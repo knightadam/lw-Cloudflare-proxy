@@ -219,7 +219,10 @@ export default {
             password = env.PASSWORD || env.PASSWD || env.password || password;
             subPath = env.SUB_PATH || env.subpath || subPath;
             yourUUID = env.UUID || env.uuid || yourUUID;
-            disabletro = env.DISABLE_TROJAN || env.CLOSE_TROJAN || disabletro;
+            if (env.DISABLE_TROJAN || env.CLOSE_TROJAN) {
+                const val = (env.DISABLE_TROJAN || env.CLOSE_TROJAN).toLowerCase()
+                disabletro = val === 'true'
+            }
             
             const url = new URL(request.url);
             const pathname = url.pathname;

@@ -7,7 +7,9 @@ const yourUUID = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63'; // UUID
 
 let cfip = [ 
     'mfa.gov.ua', 'saas.sin.fan', 'store.ubi.com','cf.130519.xyz','cf.008500.xyz', 
-    'cf.090227.xyz', 'cf.877774.xyz','cdns.doon.eu.org','sub.danfeng.eu.org','cf.zhetengsha.eu.org'
+    'cf.090227.xyz', 'cf.877774.xyz','cdns.doon.eu.org','sub.danfeng.eu.org','cf.zhetengsha.eu.org', 
+    '46.232.107.105:12953','47.76.218.163:443','152.32.215.105:8443','47.243.96.97:39738',
+    '166.0.198.81:28138'
 ]; 
 
 let ACTIVE_CONNECTIONS = 0;

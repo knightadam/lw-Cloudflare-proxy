@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-let proxyIP = '210.61.97.241:81';  // proxyIP
+let proxyIP = 'proxy.xxxxxxxx.tk:50001';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
 let yourUUID = '93bf61d9-3796-44c2-9b3a-49210ece2585';  // UUID
 
 // CDN 
